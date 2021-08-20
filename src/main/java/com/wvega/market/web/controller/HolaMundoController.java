@@ -12,4 +12,9 @@ public class HolaMundoController {
     public String saludar(){
         return "Hola Mundo de Spring!! 🍃";
     }
+
+    @GetMapping("/adios")
+    public String despedirse(){
+        return "Adios Mundo de Spring!! 🍃";
+    }
 }
